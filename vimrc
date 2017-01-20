@@ -4,8 +4,9 @@ call plug#begin('~/.vim/plugged')
 "
 " original repos on github
 Plug 'kien/ctrlp.vim'
-" Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree'
+Plug 'https://github.com/jiangmiao/auto-pairs'
+
 call plug#end()
 
 set nocompatible                " be iMproved
